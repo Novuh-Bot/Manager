@@ -6,13 +6,14 @@ exports.run = (client, message, args) => {
     return message.reply(`<:redTick:${settings.redTick} Please mention a bot to verify.`)
   } else {
     member.addRole('326889379157245953').then(message.channel.send(`Successfully added the role of Bot to ${member}.`))
+    .then(message.delete([5000]))
   }
 }
 
 exports.conf = {
   enabled: true,
   guildOnly: false,
-  aliases: [],
+  aliases: ['verify'],
   permLevel: 3
 };
 

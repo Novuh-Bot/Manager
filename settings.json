@@ -4,6 +4,9 @@
   "modrolename": "Staff",
   "adminrolename": "Bot Manager",
   "bot": "315304489361997826",
+  "greenTick": "315304489588359168",
+  "redTick": "315304490914021376",
+  "hammer": "315305018477510657",
   "prefix": "m/",
   "token": "youdontgetthis"
 }

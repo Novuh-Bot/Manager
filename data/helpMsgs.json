@@ -20,6 +20,6 @@
       ],
     "helpMsg3": [
       "```What Can I Do?```",
-      "Right now, the only command you, a regular user, has access to, is `m/suggest`. That will send a message to us, the staff, with your suggestion for a bot to add! The syntax to do so is `m/suggest [name] [reason why we should add the bot] [invite link]`"
+      "Go ahead and look at <#326918797501923338> to see what you can do!"
     ]
 }

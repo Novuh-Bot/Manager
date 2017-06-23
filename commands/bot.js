@@ -16,7 +16,8 @@ exports.run = (client, message, args) => {
     .addField('Adding User:', `${message.author.username}#${message.author.discriminator}`)
     .addField('Invite Link', reason);
     client.channels.get(logchannel.id).send(`<:bot:${settings.bot}> Looks like we've got a new bot!`)
-  return client.channels.get(logchannel.id).send({embed});
+  return client.channels.get(logchannel.id).send({embed})
+  .then(message.delete([5000]))
 };
 
 exports.conf = {

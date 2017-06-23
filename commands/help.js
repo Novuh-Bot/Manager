@@ -1,6 +1,6 @@
 const help = require('../data/helpMsgs.json');
 exports.run = (client, message) => {
-  if (message.channel.id === "166304313004523520") {
+  if (message.author.id === "166304313004523520") {
         message.channel.send(help.helpMsg1);
         setTimeout(() => {
           message.channel.send(help.helpMsg2);
